@@ -2,15 +2,16 @@
   "name": "battleship",
   "version": "1.0.0",
   "description": "final project for uni",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^29.7.0",
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4"
   }
